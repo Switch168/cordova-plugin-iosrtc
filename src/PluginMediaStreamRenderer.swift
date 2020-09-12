@@ -1,7 +1,7 @@
 import Foundation
 import AVFoundation
 
-class PluginMediaStreamRenderer : NSObject, RTCEAGLVideoViewDelegate {
+class PluginMediaStreamRenderer : NSObject, RTCVideoViewDelegate {
 	
 	var id: String
 	var eventListener: (_ data: NSDictionary) -> Void
